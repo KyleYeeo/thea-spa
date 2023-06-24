@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+.cellColor {
+    font-size: 20px !important;
+    max-height: 108px !important;
+}
+
+.cellColor img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50px;
+    margin-left: auto;
+}
+
+.btns, .btn  {
+    font-size: 15px;
+    color: white;
+}
+
+.btn {
+    border: none;
+    background-color: rgba(185, 180, 176, .2);
+    padding: 2px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btns span {
+    min-width: 30px;
+    text-align: center;
+}
+
+.btns {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: #b9b4b0;
+}
+
+.delete {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+@media all and (max-width: 640px) {
+    .cellColor img {
+        display: none;
+    }
+
+    .cellColor, .subtotal {
+        font-size: 15px !important;
+    }
+
+    .btns, .btn  {
+        font-size: 12px;
+    }
+
+    .btns span {
+        min-width: 20px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .cellColor, .subtotal {
+        font-size: 13px !important;
+    }
+
+    .btns, .btn  {
+        font-size: 10px;
+    }
+
+    .btns span {
+        min-width: 15px;
+    }
+}

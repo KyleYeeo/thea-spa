@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+
+h2 {
+    color: white;
+}
+
+.big_container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 70px 0 30px 5%;
+}
+
+.imageList {
+    width: 60%;
+}
+
+.imageList img {
+    width: 400px;
+    margin: 20px;
+}
+
+.descr_container {
+    width: 40%;
+    color: white;
+    margin: 15px;
+}
+
+.heading {
+    font-size: 35px;
+}
+
+.description {
+    margin-top: 25px;
+    color: rgba(185, 180, 176, 1);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.priceList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    font-size: 22px;
+}
+
+.priceItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid rgba(185, 180, 176, 0.5);
+}
+
+@media all and (max-width: 2490px) {
+    .imageList img {
+        width: 350px;
+    }
+}
+
+@media all and (max-width: 2210px) {
+    .imageList img {
+        width: 300px; 
+    }
+}
+
+@media all and (max-width: 1940px) {
+    .imageList img {
+        width: 250px;
+
+    }
+}
+
+@media all and (min-width: 1034px) and (max-width: 1670px) and (min-height: 1050px) and (max-height: 1600px) {
+    .big_container {
+        padding-bottom: 20vh;
+    }
+}
+
+@media all and (max-width: 1670px) {
+    .imageList img {
+        width: 200px;
+         margin: 15px;
+    }
+
+    .description, .priceList {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 1340px) {
+    .imageList img {
+        width: 150px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .description, .priceList {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .imageList img {
+        margin: 10px;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .description, .priceList {
+        font-size: 16px;
+    }
+
+    .priceList {
+        margin-top: 40px;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .imageList img {
+        width: 100px;
+
+    }
+}
+
+@media all and (max-width: 500px) {
+    .big_container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    .imageList {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 50px 0;
+        width: 100%;
+    }
+    
+    .descr_container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .imageList img {
+        width: 120px;
+    }
+}
+
+@media all and (max-width: 330px) {
+    .imageList img {
+        width: 100px;
+    }
+}
+

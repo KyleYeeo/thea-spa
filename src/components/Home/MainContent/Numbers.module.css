@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 120px 0;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px; 
+}
+
+.num {
+    color: rgba(185, 180, 176, 0.25);
+    font-size: 100px;
+}
+
+.title {
+    color: rgba(185, 180, 176, 1);
+    margin-top: -53px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+@media all and (max-width: 1030px) {
+    .number {
+        margin: 0 30px; 
+    }
+}
+
+@media all and (max-width: 900px) {
+    .num {
+        font-size: 80px;
+    }
+
+    .title {
+        margin-top: -45px;
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .container {
+        flex-wrap: wrap;
+        margin: 30px 0 100px 0;
+    }
+
+    .number {
+        margin-top: 40px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .container {
+        margin: 10px 0 100px 0;
+    }
+}

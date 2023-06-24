@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    width: 100%;
+}
+
+.container button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.sidebar {
+    display: none;
+    margin-left: auto;
+}
+
+@media all and (max-width: 899px) {
+    .links {
+        display: none;
+    }
+
+    .sidebar {
+        display: block;
+    }
+}

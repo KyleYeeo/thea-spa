@@ -1,0 +1,85 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brand {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.footer p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    line-height: 2.5;
+    color: #b9b4b0;
+}
+
+.footer .heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.author {
+    text-align: center;
+    color: #b9b4b0;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 10px;
+}
+
+.link {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+@media all and (min-height: 1300px) {
+    footer {
+        margin-top: 25vh;
+    }
+}
+
+@media all and (min-height: 1200px) and (max-height: 1299px) {
+    footer {
+        margin-top: 20vh;
+    }
+}
+
+@media all and (min-height: 920px) and (max-height: 1199px) {
+    footer {
+        margin-top: 15vh;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .brand {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .brand {
+        font-size: 30px;
+    }
+
+    .footer .heading {
+        font-size: 17px;
+    }
+}

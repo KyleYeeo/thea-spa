@@ -1,0 +1,82 @@
+.table_container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.cart, .cellColor {
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 14px;
+    letter-spacing: 3px !important;
+    height: 50px;
+    color: white !important;
+    text-decoration: none;
+    padding-bottom: 0 !important;
+}
+
+.checkoutBtn {
+    width: 100%;
+    color: white;
+    background-color: black;
+    border: 1px solid rgba(185, 180, 176, .3);
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+    padding: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.checkoutBtn:hover {
+    cursor: pointer;
+    border: 1px solid rgba(185, 180, 176, .7);
+}
+
+.empty {
+    margin-bottom: 55vh;
+}
+
+.full {
+    margin-bottom: 30vh;
+}
+
+@media all and (max-height: 1150px) {
+    .full {
+        margin-bottom: 20vh;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .table_container {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .cellColor {
+        letter-spacing: 1.5px !important;
+        font-size: 11px !important;
+    }
+
+    .checkoutBtn {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .cellColor {
+        padding: 16px 4px 0 4px !important;
+    }
+
+    .checkoutBtn {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .table_container {
+        width: 98%;
+        margin-left: 1%;
+    }
+}

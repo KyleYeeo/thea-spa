@@ -1,0 +1,16 @@
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-left: 30px;
+    padding-top: 30px;
+    color: white;
+}
+
+@media all and (max-width: 880px) {
+    .items {
+        width: 65%;
+        margin-left: 0px;
+    }
+}

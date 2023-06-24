@@ -1,0 +1,67 @@
+.cartItems {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+}
+
+.cartItems img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    margin-left: 7px;
+}
+
+.btns, .btn  {
+    font-size: 15px;
+    color: white;
+}
+
+.btn {
+    border: none;
+    background-color: rgba(185, 180, 176, .2);
+    padding: 2px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btns span {
+    min-width: 30px;
+    text-align: center;
+}
+
+.subtotal, .btns {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.subtotal {
+    font-size: 11px;
+    color: #b9b4b0;
+}
+
+.delete {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.subtotal del {
+    color:rgba(185, 180, 176, 1);
+}
+
+.subtotal ins {
+    text-decoration: none;
+    margin-left: 2px;
+}

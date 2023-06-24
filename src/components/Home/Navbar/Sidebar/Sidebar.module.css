@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.close_menu_btn, .container {
+    cursor: pointer;
+}
+
+.menu_btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.top_line, .bottom_line {
+    width: 70px;
+    border-top: 1px solid white;
+    margin: 4px 0;
+}
+
+.bottom_line {
+    margin-left: -20px;
+}
+
+.icon {
+    width: 50px;
+}

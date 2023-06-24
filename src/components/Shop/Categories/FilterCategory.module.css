@@ -1,0 +1,38 @@
+.filter {
+    line-height: 2;
+}
+
+.category {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #b9b4b0;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.category:hover {
+    font-weight: bold;
+}
+
+.category.selected {
+    background-color: rgba(185, 180, 176, .2);
+    font-weight: bold;
+}
+
+@media all and (max-width: 650px) {
+    .category {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .category {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 340px) {
+    .category {
+        font-size: 10px;
+    }
+}

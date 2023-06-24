@@ -1,0 +1,28 @@
+.tag {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: #b9b4b0;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.tag:hover {
+    opacity: 1;
+}
+
+.tag.selected {
+    opacity: 1;
+}
+
+@media all and (max-width: 650px) {
+    .tag {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 340px) {
+    .tag {
+        font-size: 14px;
+    }
+}
